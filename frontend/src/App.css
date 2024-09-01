@@ -1,0 +1,49 @@
+.d-flex{
+  display: flex !important;
+}
+
+body, html {
+  margin: 0;
+  height: 100%;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+.half {
+  border: 0px solid #000; /* Optional: to see the division */
+}
+.left {
+  background-color: lightblue;
+}
+.right {
+  background-color: lightcoral;
+}
+.align-center{
+  align-items: center !important;
+}
+.justify-center{
+  justify-content: center !important;
+}
+.d-flex{
+  display: flex !important;
+}
+.mtthreecent{
+  margin-top: 300px;
+}
+.mttwocent{
+  margin-top: 200px;
+}
+.mbthree{
+  margin-bottom: 30px;
+}
+.wd100{
+  width: 100%;
+}
+.d-block{
+  display: block !important;
+}
+.d-grid{
+  display: grid !important;
+}
